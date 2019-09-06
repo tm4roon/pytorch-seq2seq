@@ -9,7 +9,7 @@ Encoder-Decoder model with global attention mechanismのpytorch実装。
 
 ## Usages
 学習
-```python
+```sh
 python train.py \
     --gpu
     --train ./sample_data/sample_train.py
@@ -19,7 +19,7 @@ python train.py \
 ```
 
 翻訳
-```python
+```sh
 python translate.py \
     --gpu
     --model ./checkpoints/checkpoint_best.pt
