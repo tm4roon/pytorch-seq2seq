@@ -1,5 +1,5 @@
 # Effective Approaches to Attention-based Neural Machine Translation
-An Implementation of the Encoder-Decoder model with global attention mechanism ([Luong et al., 2015](https://arxiv.org/pdf/1508.04025.pdf)). This Stacked multiple layers of an RNN with a Long Short-Term Memory (LSTM) are used for both the encoder and the decoder. Also, the global attention mechanism and input feeding approach are employed. In the training step, you can use schedule sampling ([Bengio et al., 2015](https://arxiv.org/pdf/1506.03099.pdf)) to bridge the gap between training and inference for sequence prediction tasks.
+An Implementation of the Encoder-Decoder model with global attention mechanism ([Luong et al., 2015](https://arxiv.org/pdf/1508.04025.pdf)). This stacked multiple layers of an RNN with a Long Short-Term Memory (LSTM) are used for both the encoder and the decoder. Also, the global attention mechanism and input feeding approach are employed. In the training step, you can use schedule sampling ([Bengio et al., 2015](https://arxiv.org/pdf/1506.03099.pdf)) to bridge the gap between training and inference for sequence prediction tasks.
 
 ## Usages
 ### Training
